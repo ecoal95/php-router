@@ -1,10 +1,21 @@
 # PHP Router
-
 Lots of them out there, but this is super-simple, and mine ;)
 
-## Usage
+## Contributors
+* [Emilio Cobos](https://github.com/ecoal95)
+* [Bryan Velastegui](https://github.com/shinigamicorei7)
 
-See index.php for a basic example and *remember to use the htaccess provided here*!
+## Composer setup example
+```json
+{
+    "require": {
+        "ecoal95/php-router": "dev-master"
+    }
+}
+```
+
+## Usage
+See the `examples/` to see a basic example and *remember to use the htaccess provided there*!
 
 ### Get urls
 ```html
