@@ -126,4 +126,16 @@ class Router
 
         return $this->base_path . $path;
     }
+    
+    /**
+     * Redirect from one url to another
+     * @param string $fromPath
+     * @param string toPath
+     */
+    public function redirect($fromPath, $toPath) {
+        $this->all($fromPath, function() use ($toPath) {
+            header("Location: {$toPath}");
+            exit;
+        });
+    }
 }
