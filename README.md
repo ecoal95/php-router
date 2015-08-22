@@ -1,4 +1,7 @@
-# PHP Router
+## PHP Router
+
+[![Build Status](https://travis-ci.org/shinigamicorei7/php-router.svg)](https://travis-ci.org/shinigamicorei7/php-router)
+
 Lots of them out there, but this is super-simple, and mine ;)
 
 ## Contributors
