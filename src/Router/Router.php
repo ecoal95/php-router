@@ -3,10 +3,14 @@ namespace Router;
 
 class Router
 {
-    /** Base url */
+    /**
+     * @var string Base url
+     */
     private $base_path;
 
-    /** Current relative url */
+    /**
+     * @var string Current relative url
+     */
     private $path;
 
     /**
@@ -129,8 +133,9 @@ class Router
 
     /**
      * Redirect from one url to another
-     * @param string $fromPath
-     * @param string toPath
+     * @param $from_path
+     * @param $to_path
+     * @param int $code
      */
     public function redirect($from_path, $to_path, $code = 302)
     {
